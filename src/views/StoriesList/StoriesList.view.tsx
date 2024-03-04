@@ -13,6 +13,7 @@ export const StoriesListView = () => {
           {t(tKeys.storiesList.title)} | {t(tKeys.ui.metaTitle)}
         </title>
       </Head>
+
       <main>
         <StoriesList />
       </main>

@@ -1,23 +1,48 @@
-import { ThemeOptions, createTheme, responsiveFontSizes } from '@mui/material'
+import { ThemeOptions, createTheme } from '@mui/material'
 
 import { colors } from './colors'
 import { themeTypography } from './typography'
 
 const commonTheme: ThemeOptions = {
   // MUI component overrides (theming/styling)
-  components: {},
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderColor: colors.divider,
+          textTransform: 'none',
+        },
+      },
+    },
+    MuiButtonBase: {
+      styleOverrides: {
+        root: {
+          fontWeight: 700,
+        },
+      },
+    },
+  },
 
   // MUI color palette
-  palette: {},
+  palette: {
+    divider: colors.divider,
+    text: {
+      primary: colors.textPrimary,
+      secondary: colors.textSecondary,
+    },
+  },
+
+  // Shape modifications
+  shape: { borderRadius: 8 },
 
   // MUI spacing
-  spacing: (factor: number) => `${0.25 * factor}rem`,
+  spacing: (factor: number) => `${0.5 * factor}rem`,
 
   // MUI typography
   typography: { ...themeTypography },
 }
 
-const originalLightTheme = createTheme({
+export const lightTheme = createTheme({
   ...commonTheme,
   palette: {
     ...commonTheme.palette,
@@ -26,5 +51,3 @@ const originalLightTheme = createTheme({
     primary: { main: colors.primaryLight },
   },
 })
-
-export const lightTheme = responsiveFontSizes(originalLightTheme)
