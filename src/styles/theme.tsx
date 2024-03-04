@@ -3,6 +3,7 @@ import { ThemeOptions, createTheme } from '@mui/material'
 import { colors } from './colors'
 import { themeTypography } from './typography'
 
+// TODO: extrapolate if this gets over 100 lines
 const commonTheme: ThemeOptions = {
   // MUI component overrides (theming/styling)
   components: {
@@ -13,7 +14,12 @@ const commonTheme: ThemeOptions = {
           textTransform: 'none',
         },
       },
-      variants: [{ props: { variant: 'contained' }, style: { color: colors.secondaryLight } }],
+      variants: [
+        {
+          props: { variant: 'contained' },
+          style: { boxShadow: 'none', color: colors.secondaryLight },
+        },
+      ],
     },
     MuiButtonBase: {
       styleOverrides: {

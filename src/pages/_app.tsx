@@ -7,7 +7,7 @@ import createEmotionCache from '@/utils/createEmotionCache'
 import { QueryClient } from '@tanstack/react-query'
 import { GlobalAppProvider } from '@/utils/GlobalAppProvider'
 
-// Client-side cache, shared for the whole session of the user in the browser.
+// TODO: Delete when using @emotion/react
 const clientSideEmotionCache = createEmotionCache()
 
 export interface MyAppProps extends AppProps {

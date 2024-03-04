@@ -1,0 +1,62 @@
+{
+  "stories": [
+    {
+      "id": 0,
+      "title": "Unicorn Whispers in the Fairy Forest",
+      "excerpt": "In the heart of the Enchanted Forest, where the trees hum with ancient songs, young Elara discovers a shimmering unicorn. Together with her new fairy friends, she embarks on a magical journey filled with wonder and whispers of old forest tales.",
+      "image": "/mocks/story-1.webp"
+    },
+    {
+      "id": 1,
+      "title": "Captain Luna's Pirate Crew",
+      "excerpt": "Aboard the Jolly Harmony, Captain Luna and her loyal crew sail the seven seas. It’s not just treasures they find, but the bonds of unbreakable friendship. Each wave brings a new adventure, testing their bravery and unity.",
+      "image": "/mocks/story-pirate-1.webp",
+      "pages": [
+        {
+          "title": "The Adventure Begins",
+          "content": "In the vast, sparkling blue sea, under a sky as bright as a sapphire, sailed the Jolly Roger, a pirate ship like no other. Its colorful flags fluttered in the breeze, signaling the start of a new adventure. Captain Luna, with her wide-brimmed hat and trusty telescope, led her crew of the bravest pirates and their animal friends, Polly the parrot and Miko the monkey. 'Today, we set sail for Hidden Treasure Island!' announced Captain Luna. 'Legends say it's home to the greatest treasure ever known!' The crew cheered, their hearts filled with excitement and dreams of treasure. The Jolly Roger cut through the waves, its destination unknown, but its purpose clear: adventure awaited.",
+          "image": "/mocks/story-pirate-1.webp"
+        },
+        {
+          "title": "The Hidden Cove",
+          "content": "As the sun dipped below the horizon, casting a golden glow over the sea, the Jolly Roger anchored in a secluded cove. This hidden paradise, surrounded by towering cliffs and lush greenery, was the perfect spot for the crew to rest and prepare for the treasure hunt. Pirates unloaded crates filled with maps and supplies, while others gathered around a campfire on the beach, sharing tales of the sea. The cove echoed with laughter and the strumming of a guitar, as they enjoyed a peaceful evening under the stars. 'In the morning, we search for the treasure,' Captain Luna declared, her eyes twinkling with determination. 'But tonight, we enjoy the beauty of this secret haven.'",
+          "image": "/mocks/story-pirate-2.webp"
+        },
+        {
+          "title": "The Pirate Market",
+          "content": "With dawn breaking, the crew set out to explore the island. Their first discovery was a bustling pirate market, hidden amongst the palm trees. Stalls overflowed with exotic fruits, shimmering jewels, and ancient maps, each holding secrets waiting to be uncovered. As the pirates mingled with the island's inhabitants, trading stories and goods, young Jack found a mysterious map tucked away in an old chest. 'Look, Captain Luna! This map leads to the treasure!' Jack exclaimed, his eyes wide with wonder. With the map as their guide, the crew's excitement grew. The treasure was closer than ever, and their adventure was about to become even more thrilling.",
+          "image": "/mocks/story-pirate-3.webp"
+        },
+        {
+          "title": "The Treasure and the Battle",
+          "content": "Following the map through dense jungles and across sandy shores, the crew finally arrived at the treasure's location, only to find another pirate ship approaching! A thrilling battle ensued, with cannons roaring and pirates clashing. But through bravery and wit, Captain Luna and her crew triumphed, uncovering the treasure: a chest filled with golden coins and jewels, a reward for their courage and unity.",
+          "image": "/mocks/story-pirate-4.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Mystical Market of Mirador",
+      "excerpt": "Step into the bustling Mystical Market of Mirador, where elves haggle and dragons deal. A place where every stall holds a trinket or a tale, and every face has a story to tell. Young Milo's visit turns into an unexpected quest among the magical merchants.",
+      "image": "/mocks/story-3.webp"
+    },
+    {
+      "id": 3,
+      "title": "Enchantlings: The Academy of Young Wizards",
+      "excerpt": "Hidden from the ordinary eye, the Enchantlings Academy trains the brightest of young wizards. Here, magic is in every corner, and the halls echo with the laughter and spells of tomorrow’s greatest sorcerers.",
+      "image": "/mocks/story-4.webp"
+    },
+    {
+      "id": 4,
+      "title": "A Very Merry Critter Christmas",
+      "excerpt": "As snowflakes dance and Christmas bells jingle, the forest critters are preparing for the most splendid Christmas yet. Join in the festive frolics, where every animal from the bashful bunny to the wise old owl shares the joy of the holiday spirit.",
+      "image": "/mocks/story-5.webp"
+    },
+    {
+      "id": 5,
+      "title": "Fairy Circle: The Forest's Secret",
+      "excerpt": "When the moon is full, and the stars sparkle extra bright, the forest fairies gather in a secret glade. Their ritual, as ancient as the forest itself, is a dance of renewal and joy, celebrating the magic that connects all of the forest's life.",
+      "image": "/mocks/story-6.webp"
+    }
+  ]
+}

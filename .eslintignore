@@ -1,8 +1,7 @@
 /aws
 /.next
 *.md
-./*.json
-./.*
 /node_modules
 /.swc
 /.yarn
+*.json
