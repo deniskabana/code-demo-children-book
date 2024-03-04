@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Next.js 13 starter template
+# Next.js 14 - Code demo (Children book)
 
 </div>
 
@@ -38,10 +38,6 @@ Next.js development server includes hot-reloading, detailed error reporting and 
 
 - Don't use `index.ts` files to re-export other imports.
 
-- Style re-usable or general components as a MUI theme component. See [Styles Readme](./README-STYLES.md) for more info.
-
-- Always prefer rebasing over merging in git, with PRs being the only exception.
-
 &nbsp;
 
 [Husky](https://typicode.github.io/husky/#/) is used to run Prettier and ESLint on every commit.
@@ -49,7 +45,7 @@ Next.js development server includes hot-reloading, detailed error reporting and 
 - Before committing, code style check and formatting is performed.
 - Before pushing, a static type check is performed, all code is linted and unit tests are run.
 
-[Yarn version 3](https://yarnpkg.com/) with `node_modules` is used as the package manager.
+[Yarn version 4.x (stable)](https://yarnpkg.com/) with `node_modules` is used as the package manager.
 
 ---
 
@@ -69,8 +65,8 @@ yarn ts-check      # Run static type checking
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) >=20.5.1
-- [Yarn](https://yarnpkg.com/) >=3.6.1
+- [Node.js](https://nodejs.org/en/) >=20.6.0
+- [Yarn](https://yarnpkg.com/) ^4.1.0
 
 ### Recommendations
 
@@ -86,5 +82,3 @@ yarn ts-check      # Run static type checking
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Styles Readme](./README-STYLES.md) - a mandatory readme on how to style the UI.
-- [Git usage Readme](./README-GIT-FLOW.md) - learn how we recommend using Git in this project.

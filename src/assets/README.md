@@ -1,4 +1,4 @@
-[← Back to root README](?path=/&version=GBmain&anchor=learn-more)
+[← Back to root README](../../README.md)
 
 ---
 

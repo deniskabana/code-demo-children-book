@@ -1,4 +1,4 @@
-[← Back to root README](?path=/&version=GBmain&anchor=learn-more)
+[← Back to root README](../../README.md)
 
 ---
 
@@ -7,13 +7,6 @@
 Full documentation can be found in Next.js docs - [Routing](https://nextjs.org/docs/pages/building-your-application/routing).
 
 ### Routing basics
-
-Next.js 13 introduced an app router that we can't use yet:
-
-- https://github.com/emotion-js/emotion/issues/2978
-- https://github.com/emotion-js/emotion/issues/2928
-
-This means this architecture currently does not provide support to the `src/app/` routing, server side React components. Routing is instead done by filenames within the `src/pages` folder.
 
 Examples:
 

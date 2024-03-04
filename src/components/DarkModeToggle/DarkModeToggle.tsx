@@ -19,6 +19,7 @@ export const DarkModeToggle = () => {
   return (
     <Stack direction="row" spacing={2} alignItems="center">
       <Typography variant="body2">{t(tKeys.ui.toggleDarkMode)}</Typography>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src="/images/dark-mode-toggle.svg" alt="dark-mode-toggle" />
       <IconButton sx={{ ml: 1 }} onClick={toggleDarkMode} color="inherit">
         {usesDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}

@@ -13,10 +13,8 @@ import {
 } from '@mui/material'
 import { tKeys } from '@/languages'
 import { useTranslation } from 'react-i18next'
-import { SVGImage } from '@/components/SVGImage/SVGImage'
 import { DarkModeToggle } from '@/components/DarkModeToggle/DarkModeToggle'
 import { usePersistentState } from 'react-persistent-state-hook'
-import { styles } from './styles'
 
 export const HomepageDescription = () => {
   const { t } = useTranslation()
@@ -26,6 +24,7 @@ export const HomepageDescription = () => {
 
   const [user, setUser] = usePersistentState<{ age: number; name: string }>(
     { age: 0, name: '9' },
+    'userNameAndAge',
     { persistent },
   )
 

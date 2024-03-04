@@ -1,4 +1,4 @@
-[← Back to root README](?path=/&version=GBmain&anchor=learn-more)
+[← Back to root README](../../README.md)
 
 ---
 
@@ -21,14 +21,14 @@ If creating a component, this is the structure you should aim for (not all files
   - components/
     - Header/
       - Header.tsx
-      - styles.ts # optional
-      - constants.ts # optional
-      - form.ts # optional
+      - Header.styles.ts # optional
+      - Header.constants.ts # optional
+      - Header.forms.ts # optional
 ```
 
 ---
 
-Subfolders however can be split by not just one component, but can host other sub-components as well.
+Subfolders however can be split by not just one component, but can host other sub-components as well if project requires it. For example, a header component with a logo, navigation and search bar should be a module, but if the header is a single component, it can have sub-components like so:
 
 ```bash
 - src/
@@ -38,7 +38,7 @@ Subfolders however can be split by not just one component, but can host other su
       - HeaderLogo.tsx # sub-component
       - HeaderNavigation.tsx # sub-component
       - HeaderSearchBar.tsx # sub-component
-      - styles.ts # optional
-      - constants.ts # optional
-      - form.ts # optional
+      - Header.styles.ts # optional
+      - Header.constants.ts # optional
+      - Header.forms.ts # optional
 ```

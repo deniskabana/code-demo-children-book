@@ -1,4 +1,4 @@
-[← Back to root README](?path=/&version=GBmain&anchor=learn-more)
+[← Back to root README](../../README.md)
 
 ---
 
@@ -21,7 +21,7 @@ If creating a module, this is the structure you should aim for (not all files ar
   - modules/
     - LoginForm/
       - LoginForm.tsx
-      - styles.ts # optional
-      - constants.ts # optional
-      - form.ts # optional
+      - LoginForm.styles.ts # optional
+      - LoginForm.constants.ts # optional
+      - LoginForm.forms.ts # optional
 ```
