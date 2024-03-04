@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "start": "next start",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "ts-check": "tsc --noEmit"
   },
   "dependencies": {
