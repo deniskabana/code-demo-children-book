@@ -13,11 +13,33 @@ const commonTheme: ThemeOptions = {
           textTransform: 'none',
         },
       },
+      variants: [{ props: { variant: 'contained' }, style: { color: colors.secondaryLight } }],
     },
     MuiButtonBase: {
       styleOverrides: {
         root: {
           fontWeight: 700,
+        },
+      },
+    },
+    MuiTab: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          fontSize: 14,
+          fontWeight: 600,
+          letterSpacing: '0.08em',
+          lineHeight: '20px',
+          marginInlineEnd: theme.spacing(4),
+          minWidth: 0,
+          paddingLeft: 0,
+          paddingRight: 0,
+        }),
+      },
+    },
+    MuiTabs: {
+      styleOverrides: {
+        indicator: {
+          backgroundColor: colors.highlight,
         },
       },
     },
