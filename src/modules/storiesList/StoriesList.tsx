@@ -1,9 +1,9 @@
-import { Button, Container, Divider, Stack, Tab, Tabs, Typography, useTheme } from '@mui/material'
-import { SVGImage } from '@/components/SVGImage/SVGImage'
+import { Button, Container, Stack, Tab, Tabs, useTheme } from '@mui/material'
+import { SVGImage } from '@/components/common/SVGImage/SVGImage'
 import { tKeys } from '@/languages'
 import { useTranslation } from 'react-i18next'
-import LogoSrc from '@/assets/Logo.svg'
 import GroupAddSrc from '@/assets/icons/group_add.svg'
+import { Header } from '@/components/storiesList/Header/Header'
 
 export const StoriesList = () => {
   const { t } = useTranslation()
@@ -11,14 +11,7 @@ export const StoriesList = () => {
 
   return (
     <>
-      <Container>
-        {/* HEADER */}
-        <Stack direction="row">
-          <SVGImage src={LogoSrc} alt={t(tKeys.ui.metaTitle)} />
-          <Divider orientation="vertical" />
-          <Typography variant="h1">{t(tKeys.storiesList.title)}</Typography>
-        </Stack>
-      </Container>
+      <Header />
 
       {/* CONTENT TABS */}
       <Container>
