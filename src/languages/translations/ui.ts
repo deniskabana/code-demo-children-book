@@ -4,5 +4,5 @@ export const uiTranslation = {
       en: 'Back',
     },
   },
-  metaTitle: 'Children stories (CODE DEMO)',
+  metaTitle: { en: 'Children stories (CODE DEMO)' },
 }
