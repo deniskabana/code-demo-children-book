@@ -1,0 +1,7 @@
+{
+  "**/*.${js,jsx,ts,tsx}": "prettier --write",
+  "**/*.{js,jsx,ts,tsx}": "eslint --fix",
+  "**/*.{css,scss,ts,tsx}": "stylelint --cache --fix",
+  "**/*.{json,md,html}": "prettier --write --loglevel=silent",
+  "**/package.json": "sort-package-json"
+}

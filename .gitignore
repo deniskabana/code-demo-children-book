@@ -1,0 +1,45 @@
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+aws
+node_modules
+*.tsbuildinfo
+
+# testing
+coverage
+
+# production
+.next
+
+# misc
+.DS_Store
+next-env.d.ts
+
+# .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.eslintcache
+.stylelintcache
+.swc
+
+./localScripts/translations/log.log
+
+# IDE project settings
+.idea
+**/*.iml
+
+# Devops/CICD
+devops-scripts/lint-cb-result.json
+devops-scripts/jest-cb-result.json
