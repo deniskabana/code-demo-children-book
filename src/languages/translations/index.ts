@@ -1,7 +1,7 @@
-import { homepageTranslation } from './homepage'
+import { storiesListTranslation } from './storiesList'
 import { uiTranslation } from './ui'
 
 export const translations = {
-  homepage: homepageTranslation,
+  storiesList: storiesListTranslation,
   ui: uiTranslation,
 } as const

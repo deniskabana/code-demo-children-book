@@ -1,7 +1,7 @@
 import { ThemeOptions } from '@mui/material'
-import { Inter } from 'next/font/google'
+import { Rubik as GoogleFont } from 'next/font/google'
 
-export const FontPrimary = Inter({ subsets: ['latin', 'latin-ext'] })
+export const FontPrimary = GoogleFont({ subsets: ['latin', 'latin-ext'] })
 
 export const fontSizes = {
   large: '1.25rem',
@@ -32,7 +32,7 @@ export const themeTypography: ThemeOptions['typography'] = {
     fontSize: fontSizes.mediumSmall,
     fontWeight: 400,
   },
-  fontFamily: 'Inter',
+  fontFamily: FontPrimary.style.fontFamily,
   fontSize: 16,
   h1: {
     fontSize: fontSizes.xxxMega,

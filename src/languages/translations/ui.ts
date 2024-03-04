@@ -1,6 +1,8 @@
 export const uiTranslation = {
-  toggleDarkMode: {
-    cs: 'Přepnout světlý / tmavý režim',
-    en: 'Toggle light / dark mode',
+  actions: {
+    back: {
+      en: 'Back',
+    },
   },
+  metaTitle: 'Children stories (CODE DEMO)',
 }

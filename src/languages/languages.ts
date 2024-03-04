@@ -1,12 +1,10 @@
 // Languages used throughout the application
 export const languages = {
-  cs: 'Čeština',
   en: 'English',
 } as const
 
 // Enum for language codes
 export enum Lang {
-  Cs = 'cs',
   En = 'en',
 }
 

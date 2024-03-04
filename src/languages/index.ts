@@ -7,7 +7,7 @@ import { translations } from './translations'
 const { tKeys, dictionary } = generateDictionary<typeof translations>(translations)
 
 i18next.use(initReactI18next).init({
-  fallbackLng: LANGUAGES.cs,
+  fallbackLng: LANGUAGES.en,
   interpolation: {
     escapeValue: false,
   },
